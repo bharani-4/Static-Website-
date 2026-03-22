@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      margin: 0;
+      padding: 20px;
+      background-color: aquamarine;
+    }
+    h1 {
+      text-align: center;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+    .instructor {
+      color: #555;
+      margin-bottom: 6px;
+    }
+    .price {
+      color: green;
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+    .rating {
+      color: orange;
+    }
+    a{
+      padding-top:10px;
+      display:inline-block;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Available Courses</h1>
+
+<div class="container">
+
+  <div class="card">
+    <div class="title">Web Development Bootcamp</div>
+    <div class="instructor">Instructor: John Doe</div>
+    <div class="price">₹999</div>
+    <div class="rating">⭐⭐⭐⭐☆ (4.5)</div>
+    <a href="web.html">View Details</a>
+  </div>
+
+  <div class="card">
+    <div class="title">React for Beginners</div>
+    <div class="instructor">Instructor: Sarah Lee</div>
+    <div class="price">₹799</div>
+    <div class="rating">⭐⭐⭐⭐☆ (4.3)</div>
+    <a href="react.html">View Details</a>
+  </div>
+
+  <div class="card">
+    <div class="title">Python Programming Masterclass</div>
+    <div class="instructor">Instructor: David Smith</div>
+    <div class="price">₹1199</div>
+    <div class="rating">⭐⭐⭐⭐⭐ (4.8)</div>
+    <a href="python.html">View Details</a>
+  </div>
+
+  <div class="card">
+    <div class="title">Data Structures & Algorithms</div>
+    <div class="instructor">Instructor: Anjali Sharma</div>
+    <div class="price">₹1299</div>
+    <div class="rating">⭐⭐⭐⭐⭐ (4.7)</div>
+    <a href="data-structures.html">View Details</a>
+  </div>
+
+  <div class="card">
+    <div class="title">Machine Learning Basics</div>
+    <div class="instructor">Instructor: Rahul Verma</div>
+    <div class="price">₹1499</div>
+    <div class="rating">⭐⭐⭐⭐☆ (4.4)</div>
+    <a href="machine-learning.html">View Details</a>
+  </div>
+
+</div>
+</body>
+</html>

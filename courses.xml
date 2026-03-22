@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<courses>
+
+  <course id="1">
+    <title>Web Development Bootcamp</title>
+    <instructor>John Doe</instructor>
+    <price>999</price>
+    <rating>4.5</rating>
+    <duration>3 Months</duration>
+  </course>
+
+  <course id="2">
+    <title>React for Beginners</title>
+    <instructor>Sarah Lee</instructor>
+    <price>799</price>
+    <rating>4.3</rating>
+    <duration>2 Months</duration>
+  </course>
+
+  <course id="3">
+    <title>Python Programming Masterclass</title>
+    <instructor>David Smith</instructor>
+    <price>1199</price>
+    <rating>4.8</rating>
+    <duration>3 Months</duration>
+  </course>
+
+  <course id="4">
+    <title>Data Structures &amp; Algorithms</title>
+    <instructor>Anjali Sharma</instructor>
+    <price>1299</price>
+    <rating>4.7</rating>
+    <duration>4 Months</duration>
+  </course>
+
+  <course id="5">
+    <title>Machine Learning Basics</title>
+    <instructor>Rahul Verma</instructor>
+    <price>1499</price>
+    <rating>4.4</rating>
+    <duration>3 Months</duration>
+  </course>
+
+</courses>
